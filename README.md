@@ -19,4 +19,8 @@ A Machine Learning project that predicts house prices using Linear Regression an
 - REST API with FastAPI
 - Interactive API documentation using Swagger UI
 
-## Project Structure
+## Run Project
+
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload
